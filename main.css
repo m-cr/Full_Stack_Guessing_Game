@@ -11,9 +11,18 @@ h1:hover{
 	font-style: italic;
 }
 
+#message{
+	color: lightgreen;
+	font-family: courier;
+	text-shadow: 2px 2px 2px blue;
+	text-align: center;
+	background-image: url("http://i72.photobucket.com/albums/i176/heskis1/Internal%20New/MatrixScroll_int.gif");
+	height: 55px;
+}
+
 #wrap{
 	width: 400px;
-	height: 300px;
+	height: 350px;
 	margin: 0 auto;
 	padding: 30px;
 	border: 3px solid black;
@@ -34,13 +43,14 @@ h1:hover{
 	height: 25px;
 	font-size: 15px;
 	border-radius: 5px;
+	background-image: url('http://i72.photobucket.com/albums/i176/heskis1/Internal%20New/MatrixScroll_int.gif');
+	text-shadow: 2px 2px 1px blue;
+	font-weight: bolder;
+	color: white;
 }
 
 #input:focus{
 	background-image: url('http://zatugaku2ch.net/img/20160321/25.gif');
-	text-shadow: 2px 2px 1px blue;
-	font-weight: bolder;
-	color: white;
 }
 
 #buttons{
@@ -74,4 +84,12 @@ button:hover{
 body {
     background-image: url("http://i72.photobucket.com/albums/i176/heskis1/Internal%20New/MatrixScroll_int.gif");
     background-size: 800px;
+}
+
+.winner{
+	background-image: url('https://i.ytimg.com/vi/kiEqGhgWf5Y/maxresdefault.jpg');
+}
+
+.loser{
+	background-image: url('http://data.whicdn.com/images/138562673/large.jpg');
 }

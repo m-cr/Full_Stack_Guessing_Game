@@ -9,22 +9,25 @@
 	<body>
 		<div id="wrap">
 			<h1>Guess the Number</h1>
+			<p id='message'>hm....</p>
 			</br>
 			<div id="userInput">
 				<input type="number" placeholder="Pick a number..." required id="input"/> 
 			</div>
 			<div id="submit">
-				<button>Submit Guess</button>
+				<button onclick="playersGuessSubmission()">Submit Guess</button>
 			</div>
 			<div id="buttons">
-				<button>
+				<button onclick='playAgain()'>
 					Play Again
 				</button>
-				<button>
+				<button onclick="provideHint()">
 					Hint Please!
 				</button>
 			</div>
 		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="guessingGame.js"></script>
 	</body>
 
 </html>
