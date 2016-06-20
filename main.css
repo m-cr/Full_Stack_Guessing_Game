@@ -16,6 +16,7 @@ h1:hover{
 	font-family: courier;
 	text-shadow: 2px 2px 2px blue;
 	text-align: center;
+	/* great gif, looks great! */
 	background-image: url("http://i72.photobucket.com/albums/i176/heskis1/Internal%20New/MatrixScroll_int.gif");
 	height: 55px;
 }
